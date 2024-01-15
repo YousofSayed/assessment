@@ -1,85 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Lean Delivery Assessment</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div>
-      <div id="header">
-        <p>{{name}}</p>
-        <div id="menu">
-          <ul>
-            <li>CV</li>
-            <li>GitHub</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-      </div>
-      <div id="content">
-        <p>{{date}}</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Lean Delivery Assessment</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <section id="app">
+    <!-- start header  -->
+    <header id="header">
+      <p class="name" ref="me">{{name}}</p>
+      <ul>
+        <li>
+          <a target="_blank" href="https://drive.google.com/file/d/16IzbKduRbBiv5rU2thB_CSa4zF6YYxoA/view?usp=drivesdk">
+            <i class="fa-solid fa-file"></i>
+            <span>CV</span>
+          </a>
+        </li>
+
+        <li>
+          <a target="_blank" href="https://github.com/YousofSayed">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+          </a>
+        </li>
+
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/yousef-sayed-84472a180?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>Linkedin</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#contact">
+            <i class="fa-solid fa-id-badge"></i>
+            <span>Contact</span>
+          </a>
+        </li>
+
+      </ul>
+    </header>
+    <!-- end header  -->
+
+    <!-- start main  -->
+    <main>
+      <p class="date" ref="me">{{date}}</p>
+
+      <!-- start article -->
+      <article>
+          <!-- will be render by javaScript -->
+      </article>
+      <!-- end article -->
+
+      <!-- start footer  -->
+      <footer>
         <div>
           <p>
-            I had seen little of Holmes lately. My marriage had drifted us away
-            from each other. My own complete happiness, and the home-centred
-            interests which rise up around the man who first finds himself
-            master of his own establishment, were sufficient to absorb all my
-            attention, while Holmes, who loathed every form of society with his
-            whole Bohemian soul, remained in our lodgings in Baker Street,
-            buried among his old books, and alternating from week to week
-            between cocaine and ambition, the drowsiness of the drug, and the
-            fierce energy of his own keen nature. He was still, as ever, deeply
-            attracted by the study of crime, and occupied his immense faculties
-            and extraordinary powers of observation in following out those
-            clues, and clearing up those mysteries which had been abandoned as
-            hopeless by the official police. From time to time I heard some
-            vague account of his doings: of his summons to Odessa in the case of
-            the Trepoff murder, of his clearing up of the singular tragedy of
-            the Atkinson brothers at Trincomalee, and finally of the mission
-            which he had accomplished so delicately and successfully for the
-            reigning family of Holland. Beyond these signs of his activity,
-            however, which I merely shared with all the readers of the daily
-            press, I knew little of my former friend and companion.
-          </p>
-          <p>
-            One night--it was on the twentieth of March, 1888--I was returning
-            from a journey to a patient (for I had now returned to civil
-            practice), when my way led me through Baker Street. As I passed the
-            well-remembered door, which must always be associated in my mind
-            with my wooing, and with the dark incidents of the Study in Scarlet,
-            I was seized with a keen desire to see Holmes again, and to know how
-            he was employing his extraordinary powers. His rooms were
-            brilliantly lit, and, even as I looked up, I saw his tall, spare
-            figure pass twice in a dark silhouette against the blind. He was
-            pacing the room swiftly, eagerly, with his head sunk upon his chest
-            and his hands clasped behind him. To me, who knew his every mood and
-            habit, his attitude and manner told their own story. He was at work
-            again. He had risen out of his drug-created dreams and was hot upon
-            the scent of some new problem. I rang the bell and was shown up to
-            the chamber which had formerly been in part my own.
-          </p>
-          <p>
-            His manner was not effusive. It seldom was; but he was glad, I
-            think, to see me. With hardly a word spoken, but with a kindly eye,
-            he waved me to an armchair, threw across his case of cigars, and
-            indicated a spirit case and a gasogene in the corner. Then he stood
-            before the fire and looked me over in his singular introspective
-            fashion.
+            Passage adapted from Arthur Conan Doyle's "A Scandal in Bohemia"
+            (1891)
           </p>
         </div>
-        <div id="footer">
-          <div>
-            <p>
-              Passage adapted from Arthur Conan Doyle's "A Scandal in Bohemia"
-              (1891)
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script src="script.js"></script>
-  </body>
+      </footer>
+      <!-- end footer  -->
+
+    </main>
+    <!-- end main  -->
+
+  </section>
+  <script src="script.js"></script>
+</body>
+
 </html>
